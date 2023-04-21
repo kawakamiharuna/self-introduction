@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+/*==================================================
+スライダーのためのcss
+===================================*/
+.slider img {
+    width:100%;
+    padding: 10%;/*スライダー内の画像を横幅100%に*/
+    height:200px;
+    border:300px;
+    border-radius:70px;
+    padding-bottom: 0;
+}
+
+/*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+
+.slider .slick-slide {
+    margin:0 10px;/*スライド左右の余白調整*/
+}
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+body{
+  background:#eee;
+}
+
+h2,p {
+    text-align:center;
+    padding:20px;
+    background-color: #8DD9D2;
+    color: #FFF9ED;
+}
+
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  color: #333;
+}
+
+a:hover,
+a:active{
+  text-decoration: none;
+}
+h3{
+	text-align: center;
+	
+}
+
+.link{
+	list-style-type:  none;
+	width: 20%;
+    text-align: center;
+    float: left;
+    }
+ 
