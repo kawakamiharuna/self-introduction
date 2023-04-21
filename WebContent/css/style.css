@@ -12,6 +12,11 @@ body{
 	text-align: center;
 }
 
+.sakamoto img{
+	width: 70%;
+	height: 50%;
+	border: 50%;
+}
 img {
 	width: 100px;
 	height: 100px;
@@ -26,6 +31,9 @@ img {
 	float: left;
 }
 
+li{
+	list-style: none;
+}
 
 
 .main1{
@@ -37,8 +45,8 @@ img {
 	margin-left: 0px;
 	margin-right: 0px;
 	text-align: center;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
 
 }
 
@@ -51,7 +59,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	padding-left: 5%;
+	padding-left: 10%;
 	padding-right: 10%;
 }
 

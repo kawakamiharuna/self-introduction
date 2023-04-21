@@ -1,42 +1,138 @@
 @charset "UTF-8";
 
 
+
 header {
-	text-align:center;
-	border-bottom:dotted 50px #FFC86D;
+	text-align: center;
+	border-bottom: dotted 50px #FFC86D;
+}
+
+body{
+	text-align: center;
 }
 
 img{
-	width:100px;
-	height:100px;
-	border:100px;
-	border-radius:100px;
+	width: 70%;
+	height: 50%;
+	border: 50%;
+	border-radius: 100px;
 }
-  
-li {
-	list-style-type:  none;
-    text-align: center;
-    width: 50%;
-    }
-    
- li.sakamoto {
-	list-style-type:  none;
-	width: 50%;
-  text-align: center;
-   float:left;
-   padding-bottom: 50px;
-    }
-    
-  li.masuda{
-	list-style-type:  none;
-	width: 50%;
-  text-align: center;
-   float:right;
-   padding-bottom: 50px;
-    }
-.link{
-	list-style-type:  none;
+
+
+.link {
+	list-style-type: none;
 	width: 20%;
-    text-align: center;
-    float: left;
-    }    
+	float: left;
+}
+
+
+li{
+	list-style: none;
+	text-align: center;
+}
+
+.lik a {
+	width: 20%;
+	float: left;
+	padding-bottom: 0%;
+	background-color: #FFC2EA;
+}
+
+li.sakamoto {
+	list-style-type: none;
+	width: 45%;
+	text-align: center;
+	float: left;
+}
+
+li.masuda {
+	list-style-type: none;
+	width: 45%;
+	text-align: center;
+	float: right;
+	padding-bottom: 10px
+}
+
+.ouen {
+	background-color: #EDE8DD;
+}
+
+li.sakamoto,
+li.masuda {
+	border: solid 10px cornsilk;
+}
+
+/*　画像拡大＋回転　*/
+
+.icon img {
+	transform: scale(1);
+	transition: .3s ease-in-out;
+	/*移り変わる速さを変更したい場合はこの数値を変更*/
+}
+
+.icon a:hover img {
+	/*hoverした時の変化*/
+	transform: rotate(5deg) scale(1.2);
+	/*拡大、回転の値を変更したい場合はこの数値を変更*/
+}
+
+
+/*　画像のマスク　*/
+
+.mask {
+	display: block;
+	line-height: 0;
+	/*行の高さを0にする*/
+	overflow: hidden;
+	/*拡大してはみ出る要素を隠す*/
+}
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+.lead {
+	text-align: center;
+	padding: 50px 20px;
+}
+
+/*画像のレスポンシブ*/
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/*　横幅　*/
+
+.icon {
+	width: 70%;
+	margin: 0 auto;
+	/*中央揃え*/
+}
+
+.sakamoto img,
+.kyozin img {
+	width: 50%;
+
+}
+
+.masuda img {
+	width: 70%
+}
+
+li.link a {
+	background-color: #FFC2EA;
+	width: 50%;
+	padding: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+li a :hover {
+	color: black;
