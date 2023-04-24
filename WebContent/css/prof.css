@@ -2,16 +2,12 @@
 
 
 footer {
-	background-image: url(../img/headback.png);
+	background-color: hotpink;
 }
 
 header {
 	text-align: center;
 	border-bottom: dotted 50px #FFC86D;
-}
-
-footer {
-	color: aqua
 }
 
 main,
@@ -26,12 +22,8 @@ h2 {
 	border: 10px;
 	border-radius: 150px;
 }
-
-img {
-	width: 100px;
-	height: 100px;
-	border: 100px;
-	border-radius: 100px;
+ul{
+	overflow: 0;
 }
 
 .link {
